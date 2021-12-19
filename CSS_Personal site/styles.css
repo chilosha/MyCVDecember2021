@@ -1,0 +1,364 @@
+/***********************  MAIN BODY SELECTIONS  ********************************/
+
+body {
+    margin-inline: 0 0 auto;
+    padding: 10px;
+    word-spacing: 3px;
+    border: 0 auto 0 auto;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 10px;
+    display: inline-block;
+    line-height: 150%;
+    display: inline-block;
+}
+
+
+/*********************  Tables Control Selectors *******************************/
+
+.table2 {
+    border-style: double;
+    border: 3px solid rgb(253, 255, 143);
+    padding: 0px 60px 10px 10px;
+    background-color: purple;
+    font-weight: 100;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 150%;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 320px;
+}
+
+.table3 {
+    border: seashell;
+    padding: 0 20px 0 10px;
+    background-color: rgb(196, 233, 240);
+    display: inline-block;
+}
+
+.table4 {
+    border: seashell;
+    padding: 0 50px 0 10px;
+    margin: 0px 60px 10px 0px;
+    display: inline-block;
+}
+
+.interests {
+    border: seashell 1px solid;
+    padding: 10px 10px 5px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: auto 5px auto 5px;
+    width: 220%;
+    text-align: left;
+    color: rgb(253, 255, 143);
+    background-color: purple;
+    height: 250px;
+    border: solid;
+    border: 0px 60px 10px 30px;
+    width: 1250px;
+}
+
+.firstInterestPart {
+    padding: 0px 0px 5px 0px;
+    border: solid;
+    border: 0px 50px 50px;
+    width: 565px;
+    height: 200px;
+}
+
+.secondInterestPart {
+    position: absolute;
+    top: 1202px;
+    left: 610px;
+    padding: 0px 15px 5px 0px;
+    border: solid;
+    border: 0px 60px 40px;
+    width: 565px;
+    height: 200px;
+}
+
+.img {
+    border: rgb(4, 15, 170);
+    background-color: rgb(168, 236, 231);
+    border: 0px 4px;
+    border-style: solid;
+    transition: 3s;
+}
+
+.img:hover {
+    background-color: rgb(168, 236, 231);
+    border-radius: 50%;
+}
+
+color: rgb(253, 255, 143);
+background-color: purple;
+height: 100%;
+width: 100%;
+border: solid;
+border: 15px 0px 10px 0px;
+line-height: 1.8;
+margin: 20px 30px 10px 0px;
+padding: 30px 20px 20px 20px;
+
+}
+
+/*************************** horizontal lines  **********************************/
+hr {
+    margin: 0 auto;
+    border-style: dashed rgb(253, 255, 143);
+}
+
+/*********************** Headings Selectors*******************************/
+h1 {
+    color: blue;
+    text-align: center;
+}
+h2 {
+    color: blue;
+    text-align: center;
+}
+h3 {
+    color: blue;
+}
+p {
+    text-size-adjust: 2px;
+    color: rgb(20, 47, 67);
+}
+.profile {
+    color: blue;
+    text-align: left;
+    border: 2px solid rgb(253, 255, 143);
+    width: 240px;
+    margin: 10px 80px 10px 0px;
+}
+.para1 {
+    border: solid rgb(253, 255, 143);
+    color: rgb(253, 255, 143);
+    padding: 10px 10px;
+}
+.navbar ul {
+    background-color: rgb(94, 69, 75);
+    list-style-type: none;
+    text-align: center;
+    margin: 0px 20px auto 0px;
+    padding: 0px 10px 10px;
+    width: 100%;
+}
+.navbar ul li {
+    display: inline;
+    width: 100%;
+    overflow: auto;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-family: helvetica Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+}
+.navbar ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* ================ FOOTER ==================  */
+#footer {
+    background-color: rgb(94, 69, 75);
+    margin: 5px;
+    clear: both;
+    color: #efe5d0;
+    text-align: center;
+    padding: 18px;
+    font-size: 90%;
+    width: 100%;
+}
+#footer ul {
+    list-style-type: none;
+    text-align: center;
+    border-radius: 30px;
+}
+#footer ul li {
+    display: inline;
+    width: 100%;
+    overflow: auto;
+}
+#footer ul li a {
+    text-decoration: none;
+    font-family: helvetica Arial;
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #000;
+}
+#footer ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/*************** On Education main div********************/
+.educationDiv {
+    border: auto 70px 0px auto;
+    padding: auto 70px 0px auto;
+    margin: auto 40px 10px auto;
+    height: 850px;
+    background-color: aliceblue;
+    width: 1300px;
+}
+.eduContent {
+    margin: auto 0px 0px 100px;
+    padding: 0px 20px 10px 70px;
+    border: auto 10px 0px 90px;
+}
+.educationTexts {
+    text-align: center;
+    border: solid purple;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.Certs {
+    text-align: center;
+    border: solid purple;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.divContact {
+    border: 0px 70px 0px 30px;
+    padding: 0px 70px 0px 30px;
+    width: 190%;
+    height: 150%;
+    background-color: aliceblue;
+}
+.dataProcess {
+    width: 490px;
+    height: 460px;
+    line-height: .9;
+    margin-top: 5px 85px 10px 5;
+    border: 0px 60px 0px 40px;
+    padding: 0px 100px 0px 0px;
+    border: 1px solid rgb(2, 12, 153);
+}
+.dataPresentation {
+    width: 490px;
+    height: 455px;
+    line-height: 1.3;
+    position: absolute;
+    top: 123px;
+    left: 613px;
+    margin-top: 0px 80px 10px 10;
+    border: 10px 60px 0px 30px;
+    padding: 10px 77px 0px 13px;
+    border: 1px solid rgb(2, 12, 153);
+    line-height: .95;
+}
+.dataPresentMove {
+    right: 596px;
+    padding: 0px 60px 20px 10px;
+    margin-top: 0px 80px 10px 10;
+    border: 0px 60px 10px 30px;
+}
+.resizingDataPresentation {
+    margin-top: 0px 80px 5px 15;
+    border: 0px 60px 10px 30px;
+}
+.inforTech {
+    width: 490px;
+    height: 500px;
+    line-height: 1.6;
+    margin-top: 0px 90px 10px 0;
+    border: 0px 100px 0px 0px;
+    padding: 0px 100px 0px 0px;
+    border: 1px solid rgb(2, 12, 153);
+    line-height: 1.3;
+}
+.programing {
+    width: 481px;
+    height: 520px;
+    position: absolute;
+    top: 585px;
+    left: 613px;
+    margin-top: 5px 85px 10px 5;
+    border: 0px 60px 0px 40px;
+    padding: 0px 100px 0px 0px;
+    border: 1px solid rgb(2, 12, 153);
+}
+.skills {
+    background-color: F3F4ED;
+    width: fit-content;
+    height: fit-content;
+}
+.indexBackgroundColor {
+    background-color: F3F4ED;
+}
+.refCentering {
+    border: auto 70px 0px auto;
+    padding: auto 70px 0px auto;
+    margin: auto 40px 10px auto;
+    height: 700px;
+    background-color: aliceblue;
+    width: 1300px;
+    border: solid;
+}
+.RefTexture {
+    text-align: center;
+    border: solid purple;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: auto 70px 30px auto;
+    margin: auto 40px 10px auto;
+}
+.contacts {
+    border: 10px 30px 20px 30px;
+    padding: 20px 70px 0px auto;
+    margin: 10px 85px 15px 45px;
+    height: 350px;
+    border: solid rgb(253, 255, 143);
+    background-color: rgb(168, 236, 231);
+}
+.contactTexture {
+    border: solid rgb(253, 255, 143);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 30px 10px 30px;
+    margin: auto 40px 10px auto;
+    height: 25px;
+    border-radius: 0px 20px;
+    background-color: purple;
+    text-align: center;
+    border-width: 5px;
+}
+.form {
+    border: 10px 30px 20px 30px;
+    padding: 20px 70px 0px auto;
+    margin: 10px 85px 15px 45px;
+    height: 700px;
+    border: solid rgb(253, 255, 143);
+    background-color: rgb(168, 236, 231);
+    color: #efe5d0;
+    font-size: large;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textInput {
+    width: 390px;
+    border-color: aquamarine;
+    padding: 5px;
+    margin-top: 5px;
+}
+.textarea {
+    border-color: aquamarine;
+    padding: 5px;
+    margin-top: 5px;
+}
+.submitBtn {
+    width: 170px;
+    border-radius: 1rem;
+    border-color: aquamarine;
+    background-color: rgb(253, 255, 143);
+    font-size: large;
+    padding: 8px;
+    margin-top: 8px;
+}
